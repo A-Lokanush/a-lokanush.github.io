@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/a-lokanush.github.io/static/css/main.2b69fb7f.css",
-    "main.js": "/a-lokanush.github.io/static/js/main.e2284ad8.js",
-    "static/media/slick.svg": "/a-lokanush.github.io/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/a-lokanush.github.io/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/a-lokanush.github.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/a-lokanush.github.io/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/a-lokanush.github.io/index.html",
-    "main.2b69fb7f.css.map": "/a-lokanush.github.io/static/css/main.2b69fb7f.css.map",
-    "main.e2284ad8.js.map": "/a-lokanush.github.io/static/js/main.e2284ad8.js.map"
+    "main.css": "/static/css/main.28d8a18d.css",
+    "main.js": "/static/js/main.e2284ad8.js",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.28d8a18d.css.map": "/static/css/main.28d8a18d.css.map",
+    "main.e2284ad8.js.map": "/static/js/main.e2284ad8.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b69fb7f.css",
+    "static/css/main.28d8a18d.css",
     "static/js/main.e2284ad8.js"
   ]
 }
