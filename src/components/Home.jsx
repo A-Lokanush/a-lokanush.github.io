@@ -38,20 +38,21 @@ const content_web =
 - Web Developer at Delta Force
 - I'm currently learning Data Structures & Algorithms
 - Looking to collaborate on OpenSource Projects
+- Download my Resume to know my full details
 - To reach me just drop a message on my socials listed below`;
 const content_mobile = 
-`Hóla, I am Lokanush from Chennai, India. Sophomore at National Institute of Technology, Trichirappalli studying Computer Science and Engineering. Web Developer at Delta Force. I'm currently learning Data Structures & Algorithms. Looking to collaborate on OpenSource Projects. To reach me just drop a message on my socials listed below`;
+`Hóla, I am Lokanush from Chennai, India. Sophomore at National Institute of Technology, Trichirappalli studying Computer Science and Engineering. Web Developer at Delta Force. I'm currently learning Data Structures & Algorithms. Looking to collaborate on OpenSource Projects. Download my Resume to know my full details.To reach me just drop a message on my socials listed below`;
    
   return (
     <>
       <span style={{ color: "cyan", fontSize: "1.3em" }}># About Me</span>
       <br />
       {/* */}
-      <div className="writeBox">
-        { width > 1000 ? (<TypeWriter content={content_web} speed={60} />):(<TypeWriter content={content_mobile} speed={60} />)}
+      <div class="writeBox">
+        { width > 1000 ? (<TypeWriter content={content_web} speed={60} />):(<div>{content_mobile}</div>)}
         
       </div>
-      <div className="buttons">
+      <div class="buttons">
         {/* <button id="prj">Connect with me</button> */}
         {/* <button id="lnt">Languages and Tools</button> */}
         <button id="cv">Download Resume</button>

@@ -18,18 +18,13 @@ function App() {
             <span id="b"></span>
             <span id="c"></span>
           </header>
-          <main>
+          <main class="home">
             <Home/>
           </main>
         </div>
       </div>
       <div class="page2">
         <LangNTool/>
-      </div>
-      <div class="socials">
-        <div class="1" style={{marginLeft:"1em"}}><a href="https://github.com/A-Lokanush">Github</a></div>
-        <div class="2" style={{marginLeft:"1em"}}><a href="https://linkedin.com/in/lokanushananthan/">LinkedIn</a></div>
-        <div class="3" style={{marginLeft:"1em"}}><a href="https://www.instagram.com/___la23.___/">Instagram</a></div>
       </div>
     </div>
   );

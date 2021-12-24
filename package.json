@@ -1,5 +1,4 @@
 {
-  "homepage": "https://a-lokanush.github.io/a-lokanush.github.io/",
   "name": "a-lokanush.github.io",
   "version": "0.1.0",
   "private": true,
@@ -13,15 +12,19 @@
     "gh-pages": "^3.2.3",
     "icons": "^1.0.0",
     "react": "^17.0.2",
+    "react-devicon": "^0.1.9",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b gh-pages -d build",
     "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
