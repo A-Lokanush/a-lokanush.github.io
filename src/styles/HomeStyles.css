@@ -1,0 +1,300 @@
+.page{
+    position: relative;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background: radial-gradient(circle,#202e36,#0e1013);
+  }
+  .page2{
+    position: relative;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    background: radial-gradient(circle,#e8e8e8,#fcfcfc);
+    padding:0.5em;
+  }
+  .header{
+    position: relative;
+    z-index:4;
+    margin-top:2em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:3.5em;
+    font-weight: 900;
+    width: 90%;
+  }
+  .header2{
+    position: relative;
+    z-index:4;
+    margin-top:2em;
+    color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:2em;
+    font-weight: 900;
+    width: 80%;
+  }
+  button{
+    text-decoration: none;
+    border:none;
+    transition: all 0.2s ease-in-out;
+  }
+  button:hover{
+    cursor: pointer;
+    transform:scale(1.01);
+    transition: all 0.2s ease-in-out;
+  }
+  a{
+    text-decoration:none;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color:#000;
+    font-weight: 900;
+    transition: all 0.2s ease-in-out;
+  }
+  a:hover{
+    cursor: pointer;
+    transform:scale(1.1);
+    transition: all 0.2s ease-in-out;
+  }
+  .subText{
+    position: relative;
+    font-style: italic;
+    width:80%;
+    margin-top:0.5em;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color-dull);
+    font-size:1.2em !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  
+  .codebox {
+    position: relative;
+    margin-top:2em;
+    background-color: #222;
+    border-radius: 0.75em;
+    max-width: 80%;
+    border: 1.5px solid #121212;
+    -webkit-box-shadow: 9px -4px 86px 25px rgb(37, 56, 61);
+    -moz-box-shadow: 9px -4px 86px 25px rgb(37, 56, 61);
+    box-shadow: 9px -4px 86px 25px rgb(37, 56, 61);
+    margin-bottom: 5em;
+    font-size: 1em;
+  }
+  
+  .writeBox{
+    max-width: 100%;
+    overflow-x: hidden;
+    word-wrap: break-word;
+  }
+  @keyframes blink {
+    from{
+        opacity: 0%;
+     }
+     to{
+         opacity: 100%;
+      }
+  }
+  .type-writer::after{
+     content: "|";
+     animation: blink 1s infinite;
+  }
+  bold{
+    font-weight: 900;
+  }
+  #h1{
+      padding: 0.75em 1em;
+      background-color: #444;
+      border-radius: 0.75em 0.75em 0 0;
+      line-height: 0;
+  }
+  #h2{
+    padding: 0.75em 1em;
+    background-color: rgb(190, 190, 190);
+    border-radius: 0.75em 0.75em 0 0;
+    line-height: 0;
+  }
+    #a{
+      height: 1em;
+      width: 1em;
+      margin-right: 0.5em;
+      border-radius: 50%;
+      display: inline-block;
+      background-color: #ff5c5c;
+    }
+    #b{
+      height: 1em;
+      width: 1em;
+      margin-right: 0.5em;
+      border-radius: 50%;
+      display: inline-block;
+      background-color: #ffbd4c;
+    }
+    #c{
+      height: 1em;
+      width: 1em;
+      margin-right: 0.5em;
+      border-radius: 50%;
+      display: inline-block;
+      background-color: #00ca56;
+    }
+  .home{
+    padding: 1em;
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.8;
+  }
+  .lang{
+    padding: 1em;
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.8;
+    color: #121212;
+  }
+  .buttons{
+    position: relative;
+    margin-top:2em;
+    display: flex;
+    justify-content: space-around;
+  }
+  .socials{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 4em;
+    margin-bottom:2em;
+    color: rgb(0, 0, 0) !important;
+  }
+  #cv, #lnt,#prj{
+    padding:0.75em;
+    border-radius: 0.5em;
+    font-weight: 600;
+  }
+  .insta, .linkedin, .github{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .small{
+    font-size: 0.5em;
+    padding: 0.5em;
+    align-items: center;
+    justify-content: center;
+  }
+  .container{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 2em;
+    margin: 0.5em;
+    color: #121212;
+  }
+  .slider{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider1{
+    position: relative;
+    margin:2em;
+    padding:2em;
+    padding-top: 0;
+    margin-top: 0;
+    width: 20em !important;
+    /* background-color:#dbdbdb; */
+    border-radius:1em;
+    font-weight: 500;
+  }
+  .slider2{
+    position: relative;
+    margin:2em;
+    padding:2em;
+    padding-top: 0;
+    margin-top: 0;
+    width: 20em !important;
+    /* background-color:#dbdbdb; */
+    border-radius:1em;
+    font-weight: 500;
+  }
+  .slid{
+    display: flex;
+    padding:0.5em;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction:row !important;
+    width:160px !important;
+    border-radius:0.5em;
+    border:1px solid rgb(177, 177, 177);
+    background-color:rgb(238, 238, 238);
+    -webkit-box-shadow: 19px 23px 25px -11px rgba(179,177,179,1);
+  -moz-box-shadow: 19px 23px 25px -11px rgba(179,177,179,1);
+  box-shadow: 19px 23px 25px -11px rgba(179,177,179,1);
+  font-size: 1.05em;
+  }
+  .codebox2{
+    position: relative;
+    margin: 0.5em;
+    margin-top:1em;
+    background-color: #f2f2f2;
+    border-radius: 0.75em;
+    flex:1;
+    border: 1.5px solid #a5a5a5;
+    -webkit-box-shadow: 19px 23px 25px -11px rgba(179,177,179,1);
+    -moz-box-shadow: 19px 23px 25px -11px rgba(179,177,179,1);
+    box-shadow: 19px 23px 25px -11px rgba(179,177,179,1);
+    margin-bottom: 5em;
+  }
+  .githubStats-Link{
+    font-size: 1.5em;
+    font-weight: 900;
+    color : #844e94;
+  }
+  #cv2{
+    font-size: 1em;
+    padding:0.35em;
+    border-radius: 0.5em;
+    font-weight: 900;
+    background-color: rgb(29, 164, 72);
+    color: #fff;
+  }
+  @media (min-width: 1000px){
+    .home{
+      padding: 1em;
+      color: #fff;
+      font-size: 1em;
+      line-height: 2.5;
+    }
+    .lang{
+      padding: 1em;
+      color: #121212;
+      font-size: 1em;
+      line-height: 2.5;
+    }
+    .header2{
+      position: relative;
+      z-index:4;
+      margin-top:1.5em;
+      color: #121212;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size:3.5em;
+      font-weight: 900;
+      width: 80%;
+    }
+  }

@@ -5,6 +5,7 @@ import { DiMongodb, DiHtml5,DiCss3,DiJsBadge,DiReact,DiNodejsSmall,DiMysql,DiPos
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from "react-router-dom";
 
 const LangNTool = () => {
 
@@ -26,7 +27,7 @@ const LangNTool = () => {
     cssEase: "linear"
   };
   return (
-    <>
+    <div class="page2">
       <div class="header2">Languages, Frameworks & Tools</div>
       <div className="container">
         
@@ -50,25 +51,12 @@ const LangNTool = () => {
               editor), Linux(OS) and Postman(Route/API testing).
               <br />
               But, I do have interest in App Developement(learning) predominanty
-              in Flutter, DSA(also learning) and CPs(trying) mostly using C/C++.
+              in  DSA and CPs mostly using C/C++.
             </main>
             </div>
           ) : (
             null
           )}
-
-        {/* <div className="slide hi-slide">
-          <div className="hi-prev"></div>
-          <div className="hi-next"></div>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div> */}
         <div className="slider">
           <div class="slider1" style={{ alignItems: "center" }}>
             <Slider {...settings}>
@@ -94,6 +82,12 @@ const LangNTool = () => {
           </div>
         </div>
       </div>
+
+      <Link to="/github-stats">
+      <div class="githubStats-Link">
+        If you are interested, check my <button id="cv2">github stats</button> 
+      </div>
+      </Link>
 
       <div class="socials">
         <div
@@ -134,7 +128,7 @@ const LangNTool = () => {
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

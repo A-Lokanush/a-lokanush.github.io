@@ -1,4 +1,6 @@
 import React from "react";
+import "./../styles/HomeStyles.css";
+import LangNTool from "./LangNTool";
 import { useState, useEffect } from "react";
 
 const Home = () => {
@@ -42,21 +44,32 @@ const content_web =
 - To reach me just drop a message on my socials listed below`;
 const content_mobile = 
 `Hóla, I am Lokanush from Chennai, India. Sophomore at National Institute of Technology, Trichirappalli studying Computer Science and Engineering. Web Developer at Delta Force. I'm currently learning Data Structures & Algorithms. Looking to collaborate on OpenSource Projects. Download my Resume to know my full details.To reach me just drop a message on my socials listed below`;
-   
+  const exp = "<!-- Web Developer & Tech Enthusiast -->";
   return (
     <>
-      <span style={{ color: "cyan", fontSize: "1.3em" }}># About Me</span>
+      <div class="page">
+        <div class="header">Lokanush Ananthan </div>
+        <div class="subText">{exp}</div>
+        <div class="codebox">
+          <header id="h1">
+            <span id="a"></span>
+            <span id="b"></span>
+            <span id="c"></span>
+          </header>
+          <main class="home">
+          <span style={{ color: "cyan", fontSize: "1.3em" }}># About Me</span>
       <br />
       {/* */}
       <div class="writeBox">
         { width > 1000 ? (<TypeWriter content={content_web} speed={60} />):(<div>{content_mobile}</div>)}
-        
+        </div>
+            <div class="buttons">
+              <button id="cv">Download Resume</button>
+            </div>
+          </main>
+        </div>
       </div>
-      <div class="buttons">
-        {/* <button id="prj">Connect with me</button> */}
-        {/* <button id="lnt">Languages and Tools</button> */}
-        <button id="cv">Download Resume</button>
-      </div>
+      <LangNTool />
     </>
   );
 };
