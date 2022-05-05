@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 
 const Home = () => {
 
-const { height, width } = useWindowDimensions();  
+const { width } = useWindowDimensions();  
 
 const TypeWriter = ({ content = "", speed = 1000 }) => {
   const [displayedContent, setDisplayedContent] = useState("");
@@ -25,6 +25,7 @@ const TypeWriter = ({ content = "", speed = 1000 }) => {
 
   useEffect(() => {
     setDisplayedContent((displayedContent)=>displayedContent + content[index]) 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [index])
   if(width > 1000){
     return <pre class="type-writer">{displayedContent}</pre>;
@@ -36,15 +37,15 @@ const TypeWriter = ({ content = "", speed = 1000 }) => {
 
 const content_web = 
 `- Hóla, I am Lokanush from Chennai, India
-- Sophomore at National Institute of Technology, Trichirappalli studying Computer Science and Engineering
+- 3rd year at National Institute of Technology, Trichirappalli studying Computer Science and Engineering
 - Web Developer at Delta Force
-- I'm currently learning Data Structures & Algorithms
-- Looking to collaborate on OpenSource Projects
+- I'm currently learning DSA and Python
+- Looking to collaborate on Open Source Projects
 - Download my Resume to know my full details
 - To reach me just drop a message on my socials listed below`;
 const content_mobile = 
 `Hóla, I am Lokanush from Chennai, India. Sophomore at National Institute of Technology, Trichirappalli studying Computer Science and Engineering. Web Developer at Delta Force. I'm currently learning Data Structures & Algorithms. Looking to collaborate on OpenSource Projects. Download my Resume to know my full details.To reach me just drop a message on my socials listed below`;
-  const exp = "<!-- Web Developer & Tech Enthusiast -->";
+  const exp = "<!-- Student & Tech Enthusiast -->";
   return (
     <>
       <div class="page">
@@ -64,7 +65,7 @@ const content_mobile =
         { width > 1000 ? (<TypeWriter content={content_web} speed={60} />):(<div>{content_mobile}</div>)}
         </div>
             <div class="buttons">
-              <button id="cv">Download Resume</button>
+              <button id="cv"><a href="https://drive.google.com/file/d/19HH1r4Y653jxCTqX43zcKTQBEilDHqQB/view?usp=sharing" target="_blank" rel="noreferrer">Download Resume</a></button>
             </div>
           </main>
         </div>
