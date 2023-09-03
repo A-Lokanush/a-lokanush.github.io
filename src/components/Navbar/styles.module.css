@@ -1,0 +1,49 @@
+@media only screen and (max-width: 1000px) {
+    .navbar{
+        position: fixed;
+        font-weight: 700;
+        z-index: 1000;
+        width: 100vw;
+        height: 3.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: uppercase;
+    }
+    
+    .entry{
+        position: relative;
+        width: 100%;
+        font-size: 0.9rem;
+        display: flex;
+        letter-spacing: 0px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .float{
+        position: fixed;
+        width: fit-content;
+        height: fit-content;
+        left: calc(100vw - 45px);
+        top: 70vh;
+        z-index: 1000;
+        border: 1px solid #787878;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .navbar{
+        position: fixed;
+        display: flex;
+        font-weight: 600;
+        z-index: 1000;
+        width: 100vw;
+        text-align: end;
+        align-items: center;
+        justify-content: end;
+        text-transform: uppercase;
+        padding-right: 0.5rem;
+    }
+}

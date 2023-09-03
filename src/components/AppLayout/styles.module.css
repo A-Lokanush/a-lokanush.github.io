@@ -1,0 +1,27 @@
+.bg{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -999;
+}
+
+@media only screen and (max-width: 1000px) {
+    .main{
+        padding: 1rem;
+        padding-top: 4rem;
+        margin-bottom: 3rem;
+        height: fit-content;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .main{
+        position: absolute;
+        width: 99vw;
+        height: fit-content;
+        z-index: -1;
+        padding-top: 4rem;
+        padding-left: 4rem;
+        padding-right: 1.5rem;
+    }
+}

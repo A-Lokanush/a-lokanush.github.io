@@ -1,0 +1,75 @@
+@media only screen and (max-width: 1000px) {
+    .main {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .prj{
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .card {
+        position: relative;
+        display: block;
+        border-radius: 7px;
+        margin-bottom: 2rem;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+    }
+    .card:hover {
+        border-radius: 3px;
+    }
+    .stack {
+        position: relative;
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .link {
+        padding-right: 7px;
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .main {
+        position: relative;
+        width: 100%;
+    }
+    .prj{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+    }
+    .content {
+        position: relative;
+        width: 100%;
+    }
+    .card {
+        position: relative;
+        border-radius: 7px;
+        max-width: 20vw;
+        cursor: pointer;
+    }
+    .card:hover {
+        border-radius: 3px;
+    }
+    .button {
+        cursor: pointer;
+    }
+    .description {
+        padding: 1rem 3rem 1rem 3rem;
+        text-align: center;
+    }
+}
