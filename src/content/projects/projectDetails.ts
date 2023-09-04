@@ -16,7 +16,7 @@ export const content = [
       {
         title: "Rail Flip",
         description:
-          "Add no mobile view. --- Interactive game where players control a triangular object along dual rails, activated by the spacebar. The objective is to navigate obstacle-filled landscapes and cover as much distance as possible. Notably, the game offers diverse maps, each presenting unique challenges. Strategic power-ups also play a role, providing temporary obstacle invincibility.",
+          "Interactive game where players control a triangular object along dual rails, activated by the spacebar. The objective is to navigate obstacle-filled landscapes and cover as much distance as possible. Notably, the game offers diverse maps, each presenting unique challenges. Strategic power-ups also play a role, providing temporary obstacle invincibility.",
         prjPhotos: IMG_1,
         stack: ["canvas", "javascript", "html", "css"],
         prjLink: "https://a-lokanush.github.io/Web-Dev-Task-2/start.html",
@@ -67,7 +67,7 @@ export const content = [
     projects: [
       {
         title: "Swift Chat",
-        description: "Need to look once and try to deploy it --- This project entails the development of a messaging application, primarily aimed at exploring and familiarizing with a new technology stack. The stack incorporates crucial elements such as end-to-end encryption for messages, OAuth authentication for secure user access, and Firebase for backend infrastructure.",
+        description: "This project entails the development of a messaging application, primarily aimed at exploring and familiarizing with a new technology stack. The stack incorporates crucial elements such as end-to-end encryption for messages, OAuth authentication for secure user access, and Firebase for backend infrastructure.",
         prjPhotos: IMG_1,
         stack: ["nextjs", "chakra-ui", "firebase", "typescript"],
         prjLink: "@",

@@ -1,5 +1,5 @@
-import { Box, Image, SimpleGrid, Text, VStack, useColorMode, useColorModeValue } from "@chakra-ui/react";
-import IMG_1 from "../../assets/4.jpg";
+import { Box, SimpleGrid, Text, useColorModeValue } from "@chakra-ui/react";
+// import IMG_1 from "../../assets/4.jpg";
 import styles from "./styles.module.css";
 
 // const content = [
